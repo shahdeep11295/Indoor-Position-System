@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action1"
+        android:orderInCategory="100"
+        android:title="Setting"></item>
+
+    <item
+        android:id="@+id/action2"
+        android:orderInCategory="100"
+        android:title="FAQs"></item>
+
+    <item
+        android:id="@+id/action3"
+        android:orderInCategory="100"
+        android:title="About Us"></item>
+
+</menu>

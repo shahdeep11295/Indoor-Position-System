@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_faq"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="12"
+    android:background="@drawable/grdnt"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme"
+    tools:context="com.example.deeps.ips.FAQActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center">
+
+    <TextView
+        android:text="FAQs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView17"
+        android:textColor="#ea780d"
+        android:textStyle="normal|bold"
+        android:textSize="@dimen/re" />
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="fill_vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1) Can I use different devices to run this app?"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/textsize"
+            android:textStyle="normal|bold" />
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="fill_vertical">
+
+        <TextView
+            android:text="Ans: Yes. You can use multiple devices by logging into the same account with multiple devices and It will show you ."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/textsize"
+            android:layout_below="@+id/textView11"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="fill_vertical">
+    <TextView
+        android:text="2) How can I use this app?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/textsize"
+        android:textStyle="normal|bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="fill_vertical">
+    <TextView
+        android:text="Ans: After installing this app,Go to the login task. After finishing login it will provide you search menu. In search menu we can give all the valid location area and it will provide the indoor map of that particular building and also gives the path between current location to destination."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/textsize"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="fill_vertical">
+    <TextView
+        android:text="3) What the requirements to use this app?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/textsize"
+        android:textStyle="normal|bold"/>
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="fill_vertical">
+    <TextView
+        android:text="Ans: User must have Android phone. Internet connection and Bluetooth of that particular phone must be enable."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textSize="@dimen/textsize"
+        android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize">13dp</dimen>
+    <dimen name="button_width">150dp</dimen>
+    <dimen name="button_hight">40dp</dimen>
+    <dimen name="re">30dp</dimen>
+    <dimen name="IPS">25dp</dimen>
+    <dimen name="img_width">120dp</dimen>
+    <dimen name="img_hight">120dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

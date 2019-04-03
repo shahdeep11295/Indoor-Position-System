@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">IPS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="action1">FAQ</string>
+    <string name="action2">About Us</string>
+    <string name="title_activity_basic">Basic</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string-array name="class_room">
+        <item>--- Select ---</item>
+        <item>HOD OFFICE</item>
+        <item>A201</item>
+        <item>A202</item>
+        <item>A203</item>
+        <item>A204</item>
+        <item>A205</item>
+        <item>A206</item>
+        <item>LAB 7-8</item>
+
+    </string-array>
+
+</resources>
